@@ -5,10 +5,11 @@ var btn = document.getElementById("myBtn");
 function myFunction() {
   if (video.paused) {
     video.play();
-    btn.innerHTML = "Pause";
+    btn.innerHTML = '<i class="material-icons"> videocam </i>';
+	
   } else {
     video.pause();
-    btn.innerHTML = "Play";
+    btn.innerHTML = '<i class="material-icons"> videocam_off </i>';
   }
 }
 
